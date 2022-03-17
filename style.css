@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.button{
+    border: 1px solid #2081E2;
+    background-color: white;
+    padding: 14px 32px;
+    border-radius: 10px;
+    color: #2081E2;
+    height: 48px;
+    width: 172px;
+}
+.wrapper{
+    max-width: 1024px;
+}
+.registro{
+  background-color: #2081E2;  
+  color: white;
+}
+main{
+    background: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding:50px;
+    gap: 40px;
+}
+.hero-img img{
+    width: 500px;
+    height: 500px;
+}
+.hero-description .titulo{
+    font-weight: bold;
+    font-size: 48px;
+}
+.descripcion{
+    font-size: 22px;
+}
+.hero-pictures{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px -10px 10px black;
+}
+.autor{
+   
+    padding: 16px;
+    display: flex;
+}
+.autor-nft{
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+.autor-nombre{
+    color: #2081E2;
+    margin: 0;
+}
